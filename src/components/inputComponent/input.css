@@ -1,0 +1,19 @@
+.input-container{
+    display: flex;
+  justify-content: space-between;
+    width: 300px;
+    margin: 15px 0px;
+}
+label{
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f3b67;
+}
+.input{
+        height: 20px;
+}
+.input:focus{
+
+    outline: solid 1px #0f3b67;
+;
+}

@@ -1,0 +1,33 @@
+.container-our-date{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 25px;
+    align-items: center;
+    gap: 4px;
+}
+.date{
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+.const-date{
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: brown;
+}
+
+@media (min-width:400px) {
+    .container-our-date{
+        gap: 25px;
+    }
+    .date{
+        font-size: 25px;
+    }
+    .const-date{
+        font-size: 25px;
+    }
+}

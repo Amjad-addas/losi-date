@@ -1,0 +1,33 @@
+.simple-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+form input{
+        width: 300px;
+    padding: 5px;
+    margin: 10px;
+    text-align: end;
+}
+@media (min-width:400px) {
+    form input{
+        width: 400px;
+    }
+}
+
+.btnform{
+    padding: 8px;
+    width: 250px;
+    margin-top: 15px;
+    background-color: #e4c231;
+    border: 1px solid brown;
+    cursor: pointer;
+}

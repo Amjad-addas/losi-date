@@ -1,0 +1,15 @@
+.date-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    gap: 25px;
+}
+.time-container,.oclock-container{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+}
+.time-container{
+    gap: 35px;
+}

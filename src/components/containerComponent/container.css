@@ -1,0 +1,11 @@
+.span-container{
+    font-size: 25px;
+  font-weight: bold;
+    color: #0f3b67;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 25px;
+  font-weight: bold;
+    color: #0f3b67;
+}
