@@ -14,14 +14,19 @@ let houre = 0
 let minute=0
 let thisMinute = date.getMinutes()
 let sec = date.getSeconds()
-if(year>2025){
-    if(day>=24){
-        year=year-2025
-    }else{
-        year=year-2025-1
+let yy=2025
+let ny=0
+if(year>yy){
+ny=year-yy
+if(month>1){
+    ny=ny+1
+}else if(month==1){
+    if(day>24){
+        ny=ny+1
     }
+}
 }else{
-year=0
+    ny=0
 }
 console.log(day)
 if(day>=24){
@@ -67,5 +72,5 @@ else{
         }
 }
 
-
+year=ny
 export  {month,year,day,differenceInDays,weeks,hours,thisHoure,thisMinute,houre,minute,sec}
