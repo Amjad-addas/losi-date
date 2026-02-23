@@ -178,6 +178,7 @@ else if(month>1){
     }
 
     else if(day>24){
+        month--
         day=day-24
             if(thisHoure==16){
             houre = 0
@@ -217,7 +218,7 @@ else if(month>1){
         }
     }
     else if(day<24){
-        month--
+        month=month-2
         day = lastday-(24-day)
             if(thisHoure==16){
             houre = 0
